@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin_app"
+             x:Class="Xamarin_app.MainPage">
+    
+    <stacklayout padding="10">
+        
+        <Label Text="Hi, Benn!" 
+               VerticalOptions="Center" 
+               x:Name ="Title"
+               HorizontalOptions="Center" />
+
+        <Button 
+            Text+="Click me"
+            HorizontalOption="Center"
+            Clicked="ButtonClicked"/>
+        
+    </stacklayout>
+
+</ContentPage>
